@@ -1,0 +1,257 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Importar googleapis-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web&display=swap" rel="stylesheet">
+
+    <!--Importar materialize css-->
+    <link rel="stylesheet" href="../resources/styles-materialize.css">
+
+    <link type="text/css" rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Navegador Sabe que está optimizado para celular-->
+    <title>Centro de Ayuda Jazmín</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Fuente Inria+Sans Títulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="nav-wrapper barra-navegacion">
+          <a href="#" data-target="slide-out" class="sidenav-trigger left show-on-large"><i class="material-icons icono-menu">menu</i></a>
+          <ul id="nav-mobile" class="">
+            <li>
+              <a href="../" class="link-navbar"><b>Centro de Ayuda Jazmín</b></a>
+            </li>
+            <li>
+              <a href="../solicitud" class="link-navbar"><b>Envía una Solicitud</b></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <!--<li class="tab"><a href="#">¿Qué es Majus?</a></li>-->
+            <li class="tab"><a href="#comenzar">Tablero</a></li>
+            <li class="tab"><a href="#registrar">Reporte</a></li>
+            <!--<li class="tab"><a href="#">Confirmar</a></li>-->
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+     <ul id="slide-out" class="sidenav center">
+       <li>
+         <div class="contenedor-imagen-barra">
+           <a href="http://vase.cl/majus/" target="_blank"><img class="imagen-barra" src="../img/texto-majus.svg"></a>
+         </div>
+       </li>
+       <li style="margin-top:15%;">
+         <a href="../"><b>Centro de Ayuda Jazmín</b></a>
+       </li>
+       <li>
+         <a href="../solicitud"><b>Envía una Solicitud</b></a>
+       </li>
+       <li>
+         <a href="#">Comenzar en Jazmín</a>
+       </li>
+       <li>
+         <a href="../servidor">Majus en tu Servidor</a>
+       </li>
+       <li>
+         <a href="../uso">Uso de la App</a>
+       </li>
+       <li>
+         <a href="../botones">Botones</a>
+       </li>
+       <li>
+         <a href="../servidor-app">Servidor en tu App</a>
+       </li>
+     </ul>
+
+     <div class="fixed-action-btn">
+      <a href="#" class="btn-floating btn-large color">
+        <i class="large material-icons">arrow_upward</i>
+      </a>
+    </div>
+
+     <section class="seccion-foto">
+     <!--
+       <div class="contenedor-logo-majus">
+         <svg id="Layer_1" class="logo-majus" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 227.5 254.06">
+             <defs>
+                 <style>
+                     .cls1-1 {
+                         fill: url(#Degradado_sin_nombre_3);
+                     }
+
+                     .cls1-2 {
+                         fill: #1ea1d9;
+                     }
+
+                     .cls1-3 {
+                         fill: #348ddf;
+                     }
+
+                     .cls1-4 {
+                         fill: #9538fc;
+                     }
+
+                     .cls1-5 {
+                         fill: #7356f2;
+                     }
+
+                     .cls1-6 {
+                         fill: #447fe4;
+                     }
+                 </style>
+                 <linearGradient id="Degradado_sin_nombre_3" x1="77.89" y1="128.8" x2="149.61" y2="128.8" gradientTransform="matrix(1, 0, 0, -1, 0.01, 256)" gradientUnits="userSpaceOnUse">
+                     <stop offset="0" stop-color="#9f2fff" />
+                     <stop offset="1" stop-color="#0bb1d3" />
+                 </linearGradient>
+             </defs>
+             <title>logo-majus</title>
+             <g id="circulo">
+                 <path class="cls1-1" d="M139.11,101.84a35.86,35.86,0,1,0,0,50.72,35.85,35.85,0,0,0,0-50.72Z" transform="translate(-0.01)" />
+             </g>
+             <g id="grupo_1" data-name="grupo 1">
+                 <rect class="cls1-2" x="39.81" y="87.28" width="48.28" height="8.02" rx="3.78" transform="translate(-45.83 71.96) rotate(-45)" />
+                 <rect class="cls1-2" x="159.55" y="67.12" width="8.02" height="48.28" rx="3.78" transform="translate(-16.63 142.38) rotate(-45)" />
+                 <rect class="cls1-2" x="88.97" y="64.49" width="48.28" height="8.02" rx="3.78" />
+                 <rect class="cls1-2" x="139.42" y="158.76" width="48.28" height="8.02" rx="3.78" transform="translate(-67.19 163.33) rotate(-45)" />
+                 <rect class="cls1-2" x="59.93" y="138.66" width="8.02" height="48.28" rx="3.78" transform="translate(-96.4 92.9) rotate(-45)" />
+                 <rect class="cls1-2" x="90.23" y="181.55" width="48.28" height="8.02" rx="3.78" />
+             </g>
+             <g id="grupo_2" data-name="grupo 2">
+                 <rect class="cls1-3" x="20.59" y="75.88" width="63.92" height="8.02" rx="3.78" transform="translate(-41.1 60.56) rotate(-45)" />
+                 <rect class="cls1-3" x="170.95" y="47.89" width="8.02" height="63.92" rx="3.78" transform="translate(-5.23 147.1) rotate(-45)" />
+                 <rect class="cls1-3" x="81.15" y="48.36" width="63.92" height="8.02" rx="3.78" />
+                 <rect class="cls1-3" x="143.01" y="170.16" width="63.92" height="8.02" rx="3.78" transform="translate(-71.92 174.73) rotate(-45)" />
+                 <rect class="cls1-3" x="48.54" y="142.24" width="8.02" height="63.92" rx="3.78" transform="translate(-107.79 88.18) rotate(-45)" />
+                 <rect class="cls1-3" x="82.41" y="197.67" width="63.92" height="8.02" rx="3.78" />
+             </g>
+             <g id="grupo_5" data-name="grupo 5">
+                 <rect class="cls1-4" x="-5.79" y="41.68" width="48.28" height="8.02" rx="3.78" transform="translate(-26.94 26.36) rotate(-45)" />
+                 <rect class="cls1-4" x="205.14" y="21.52" width="8.02" height="48.28" rx="3.78" transform="translate(28.97 161.27) rotate(-45)" />
+                 <rect class="cls1-4" x="88.96" width="48.28" height="8.02" rx="3.78" />
+                 <rect class="cls1-4" x="185.02" y="204.35" width="48.28" height="8.02" rx="3.78" transform="translate(-86.08 208.93) rotate(-45)" />
+                 <rect class="cls1-4" x="14.34" y="184.26" width="8.02" height="48.28" rx="3.78" transform="translate(-142 74.01) rotate(-45)" />
+                 <rect class="cls1-4" x="90.24" y="246.04" width="48.28" height="8.02" rx="3.78" />
+             </g>
+             <g id="grupo_4" data-name="grupo 4">
+                 <rect class="cls1-5" x="-2.21" y="53.08" width="63.92" height="8.02" rx="3.78" transform="translate(-31.66 37.76) rotate(-45)" />
+                 <rect class="cls1-5" x="193.74" y="25.09" width="8.02" height="63.92" rx="3.78" transform="translate(17.58 156.54) rotate(-45)" />
+                 <rect class="cls1-5" x="81.14" y="16.12" width="63.92" height="8.02" rx="3.78" />
+                 <rect class="cls1-5" x="165.79" y="192.94" width="63.92" height="8.02" rx="3.78" transform="translate(-81.35 197.51) rotate(-45)" />
+                 <rect class="cls1-5" x="25.75" y="165.05" width="8.02" height="63.92" rx="3.78" transform="translate(-130.6 78.74) rotate(-45)" />
+                 <rect class="cls1-5" x="82.42" y="229.91" width="63.92" height="8.02" rx="3.78" />
+             </g>
+             <g id="grupo_3" data-name="grupo 3">
+                 <rect class="cls1-6" x="1.05" y="64.49" width="80.21" height="8.02" rx="3.78" transform="translate(-36.39 49.16) rotate(-45)" />
+                 <rect class="cls1-6" x="182.35" y="28.35" width="8.02" height="80.21" rx="3.78" transform="translate(6.17 151.82) rotate(-45)" />
+                 <rect class="cls1-6" x="73" y="32.24" width="80.21" height="8.02" rx="3.78" />
+                 <rect class="cls1-6" x="146.26" y="181.56" width="80.21" height="8.02" rx="3.78" transform="translate(-76.64 186.13) rotate(-45)" />
+                 <rect class="cls1-6" x="37.14" y="145.5" width="8.02" height="80.21" rx="3.78" transform="translate(-119.2 83.46) rotate(-45)" />
+                 <rect class="cls1-6" x="74.27" y="213.79" width="80.21" height="8.02" rx="3.78" />
+             </g>
+         </svg>
+       </div>
+     -->
+       <div class="contenedor-texto-majus">
+         <img class="texto-majus" src="../img/texto-majus.svg">
+       </div>
+
+     </section>
+
+     <section class="seccion-contenido">
+       <div class="contenedor-contenido">
+         <h1 class="titulo-contenido">Reportes</h1>
+
+         <h1 class="subtitulo-contenido">.</h1>
+
+         <h1 id="comenzar" class="subtitulo-obtener" style="color:#82afec;">Tablero</h1>
+         <div class="contenedor-imagen">
+           <img class="dashboard" src="../img/reportes/dashboard.jpg">
+         </div>
+         <p class="parrafo-contenido">En esta sección notarás una serie de datos, los cuales te otorgarán una información resumida sobre tus páginas, su cantidad y su acceso a los reportes individuales.<br><br><b>"Además notarás un generador de reportes el cual será habilitado en nuestra tienda próximamente".</b></p>
+
+         <ul>
+           <li><p class="parrafo-contenido"><a href="../tienda" target="_blank">&#9679; Tienda</a></p></li>
+         </ul>
+     </section>
+
+     <section class="seccion-contenido">
+       <div class="contenedor-contenido">
+         <h1 id="registrar" class="subtitulo-obtener" style="color:#82afec;">Reporte Individual</h1>
+
+         <p class="parrafo-contenido">Luego de hacer click en el reporte se abrirá una ventana en la cual se verá información relevante de cada elemento.</p>
+         <div class="contenedor-imagen">
+           <img class="imagen-google" src="../img/reportes/reportes.jpg">
+         </div>
+     </section>
+
+     <section class="seccion-pregunta-utilidad">
+       <h1 class="titulo-utilidad">¿No Encuentras lo que buscas?</h1>
+       <h1 class="subtitulo-utilidad">Tranquilo,  ¡Envía una solicitud! Te responderemos los más pronto posible.</h1>
+       <a href="../solicitud" target="_blank"><h1 class="boton">Enviar una solicitud</h1></a>
+     </section>
+
+    </body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.tooltipped');
+      var instances = M.Tooltip.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems,{fullWidth: true,indicators: true})
+
+        for(let i = 0 ; i < instances.length;i++){
+            let instancia = instances[i];
+            let intervalos = setInterval(function () {
+              console.log("next");
+              instancia.next();
+            }, 5000);
+
+        }
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+          direction: 'left'
+        });
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
+      });
+   </script>
+  </html>

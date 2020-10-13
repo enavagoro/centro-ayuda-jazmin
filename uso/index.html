@@ -1,0 +1,177 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Importar googleapis-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web&display=swap" rel="stylesheet">
+
+    <!--Importar materialize css-->
+    <link rel="stylesheet" href="../resources/styles-materialize.css">
+
+    <link type="text/css" rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Navegador Sabe que está optimizado para celular-->
+    <title>Centro de Ayuda Majus</title>
+    <link rel="shortcut icon" href="./iconos/reset.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Fuente Inria+Sans Títulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="nav-wrapper barra-navegacion">
+          <a href="#" data-target="slide-out" class="sidenav-trigger left show-on-large"><i class="material-icons icono-menu">menu</i></a>
+          <ul id="nav-mobile" class="">
+            <li>
+              <a href="../" class="link-navbar"><b>Centro de Asistencia Majus</b></a>
+            </li>
+            <li>
+              <a href="../solicitud" class="link-navbar"><b>Envía una Solicitud</b></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#menu">Menú</a></li>
+            <li class="tab"><a href="#filtros">Filtros</a></li>
+            <li class="tab"><a href="#historial">Historial</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <ul id="slide-out" class="sidenav center">
+      <li>
+        <div class="contenedor-imagen-barra">
+          <a href="http://vase.cl/majus/" target="_blank"><img class="imagen-barra" src="../img/texto-majus.svg"></a>
+        </div>
+      </li>
+      <li style="margin-top:15%;">
+        <a href="../"><b>Centro de Asistencia Majus</b></a>
+      </li>
+      <li>
+        <a href="../solicitud"><b>Envía una Solicitud</b></a>
+      </li>
+      <li>
+        <a href="../comenzar">Comenzar en Majus</a>
+      </li>
+      <li>
+        <a href="../servidor">Majus en tu Servidor</a>
+      </li>
+      <li>
+        <a href="#">Uso de la App</a>
+      </li>
+      <li>
+        <a href="../botones">Botones</a>
+      </li>
+      <li>
+        <a href="../servidor-app">Servidor en tu App</a>
+      </li>
+    </ul>
+
+     <div class="fixed-action-btn">
+      <a href="#" class="btn-floating btn-large color">
+        <i class="large material-icons">arrow_upward</i>
+      </a>
+    </div>
+
+     <section class="seccion-foto">
+
+       <div class="contenedor-texto-majus">
+         <img class="texto-majus" src="../img/texto-majus.svg">
+       </div>
+
+     </section>
+
+     <section class="seccion-contenido">
+       <div class="contenedor-contenido">
+        <h1 class="titulo-contenido">Uso de la aplicación</h1>
+
+         <p class="parrafo-contenido">Hola, nos volvemos a encontrar. <br>En este artículo te contaremos en aspectos generales como funciona esta aplicación.</p>
+         <h1 id="menu" class="subtitulo-obtener" style="color:#82afec;">Menú</h1>
+
+         <p class="parrafo-contenido">A la costado de nuestra aplicación, siempre podremos econtrar nuestro menú, el cual nos permitirá movilizarnos entre todos los elementos y donde podemos cerrar sesión.</p>
+         <div class="contenedor-imagen">
+           <img class="menu" src="../img/uso/menu.jpg">
+         </div>
+         <h1 id="filtros" class="subtitulo-obtener" style="color:#82afec;">Filtros</h1>
+         <p class="parrafo-contenido">Luego en todas las páginas donde se ingresan datos, como en ventas, gastos o cotizaciones, encontraremos unos filtros para acceder a las listas de nuestros elementos como buscar, la selección de periodos entre fechas y fechas o si se muestan la lista de elementos desactivados. <p>
+         <div class="contenedor-imagen">
+           <img class="filtros" src="../img/uso/filtros.jpg">
+         </div>
+
+         <h1 id="historial" class="subtitulo-obtener" style="color:#82afec;">Historial</h1>
+         <p class="parrafo-contenido">Continuamente al final de las páginas, se encontrará una lista de elementos los cuales se pueden seleccionar para desplegar un pequeño menú de acciones, donde se puede ver, actualizar o desactivar los elementos.<p>
+         <div class="contenedor-imagen">
+           <img class="historial" src="../img/uso/historial.jpg">
+         </div>
+         <p class="parrafo-contenido">También, podrá observar dos botones, los cuales sirven para disminuir o aumentar la cantidad de elementos que se quiere ver de la lista, en este caso <b>(ver menos y ver más).</b><p>
+         <div class="contenedor-imagen">
+           <img class="opciones" src="../img/uso/opciones.jpg">
+         </div>
+
+       </div>
+     <section class="seccion-pregunta-utilidad">
+       <h1 class="titulo-utilidad">¿No Encuentras lo que buscas?</h1>
+       <h1 class="subtitulo-utilidad">Tranquilo,  ¡Envía una solicitud! Te responderemos los más pronto posible.</h1>
+       <a href="../solicitud" target="_blank"><h1 class="boton">Enviar una solicitud</h1></a>
+     </section>
+
+    </body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.tooltipped');
+      var instances = M.Tooltip.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems,{fullWidth: true,indicators: true})
+
+        for(let i = 0 ; i < instances.length;i++){
+            let instancia = instances[i];
+            let intervalos = setInterval(function () {
+              console.log("next");
+              instancia.next();
+            }, 5000);
+
+        }
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+          direction: 'left'
+        });
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
+      });
+   </script>
+  </html>

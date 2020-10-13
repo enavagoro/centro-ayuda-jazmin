@@ -1,0 +1,214 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!--Importar googleapis-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web&display=swap" rel="stylesheet">
+
+    <!--Importar materialize css-->
+    <link rel="stylesheet" href="../resources/styles-materialize.css">
+
+    <link type="text/css" rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Navegador Sabe que está optimizado para celular-->
+    <title>Centro de Ayuda Jazmín</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Fuente Inria+Sans Títulos -->
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <nav>
+        <div class="nav-wrapper barra-navegacion">
+          <a href="#" data-target="slide-out" class="sidenav-trigger left show-on-large"><i class="material-icons icono-menu">menu</i></a>
+          <ul id="nav-mobile" class="">
+            <li>
+              <a href="../" class="link-navbar"><b>Centro de Ayuda Jazmín</b></a>
+            </li>
+            <li>
+              <a href="../solicitud" class="link-navbar"><b>Envía una Solicitud</b></a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-content">
+          <ul class="tabs tabs-transparent">
+            <!--<li class="tab"><a href="#">¿Qué es Majus?</a></li>-->
+            <li class="tab"><a href="#comenzar">Comenzar</a></li>
+            <li class="tab"><a href="#detalle">Detalle</a></li>
+            <li class="tab"><a href="#historial">Historial</a></li>
+            <!--<li class="tab"><a href="#">Confirmar</a></li>-->
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+     <ul id="slide-out" class="sidenav center">
+       <li>
+         <div class="contenedor-imagen-barra">
+           <a href="http://vase.cl/majus/" target="_blank"><img class="imagen-barra" src="../img/texto-majus.svg"></a>
+         </div>
+       </li>
+       <li style="margin-top:15%;">
+         <a href="../"><b>Centro de Ayuda Jazmín</b></a>
+       </li>
+       <li>
+         <a href="../solicitud"><b>Envía una Solicitud</b></a>
+       </li>
+       <li>
+         <a href="#">Comenzar en Jazmín</a>
+       </li>
+       <li>
+         <a href="../servidor">Majus en tu Servidor</a>
+       </li>
+       <li>
+         <a href="../uso">Uso de la App</a>
+       </li>
+       <li>
+         <a href="../botones">Botones</a>
+       </li>
+       <li>
+         <a href="../servidor-app">Servidor en tu App</a>
+       </li>
+     </ul>
+
+     <div class="fixed-action-btn">
+      <a href="#" class="btn-floating btn-large color">
+        <i class="large material-icons">arrow_upward</i>
+      </a>
+    </div>
+
+     <section class="seccion-foto">
+
+       <div class="contenedor-texto-majus">
+         <img class="texto-majus" src="../img/texto-majus.svg">
+       </div>
+
+     </section>
+
+     <section class="seccion-contenido">
+       <div class="contenedor-contenido">
+         <h1 class="titulo-contenido">Ventas</h1>
+      <!--
+         <div class="contenedor-descripcion">
+           <div class="contenedor-imagen-descripcion">
+             <img class="imagen-descripcion" src="../img/robot02.png">
+          </div>
+          <h1 class="titulo-descripcion"><b>Pixel Lover Admin</b><br><br>"¿ A tí también te gusta el café?"</h1>
+         </div>
+       -->
+
+         <h1 class="subtitulo-contenido">Hola nuevamente. En este artículo veremos como funciona nuestra sección de ventas y como puedes registrar tus ventas.</h1>
+
+         <h1 id="comenzar" class="subtitulo-obtener" style="color:#82afec;">Comenzando</h1>
+
+         <p class="parrafo-contenido">Al abrir la sección de Ventas notarás una serie de campos que definen la estructura de tu venta, los cuales están pre seleccionados para agilizar el proceso de inserción.<br>
+          <br>"Entre estos campos podemos ver; La <b>fecha de emisión</b> (Cuando ocurrió la venta), el <b>metódo de pago</b> y el <b>tiempo de pago</b> (En el caso de que tu venta se pague en un día posterior)".
+         </p>
+         <div class="contenedor-imagen">
+           <img class="pre-seleccionados" src="../img/ventas/pre-seleccionado.jpg">
+         </div>
+
+         <p class="parrafo-contenido">También podrá notar una barra de buscar, la cual nos servirá para encontrar el cliente al cual se le va a hacer la venta.<p>
+         <div class="contenedor-imagen">
+           <img class="buscar" src="../img/ventas/buscar.jpg">
+         </div>
+         <p class="parrafo-contenido">En el caso de no existir cliente usted puede deseleccionar la opción de cliente existente y crear uno nuevo.</p>
+         <div class="contenedor-imagen">
+           <img class="cliente" src="../img/ventas/cliente.jpg">
+         </div>
+
+         <h1 id="detalle" class="subtitulo-obtener" style="color:#82afec;">Detalle</h1>
+         <p class="parrafo-contenido">Al hacer click en el botón de detalle se abrirá un modal donde podrá ingresar la cantidad de <b> productos/servicios (no inventariables)</b> asociados a esta venta, permitiendo editar su precio.
+           <br><br>En el caso de que se haya comprado <a href="http://fisalis.vase.cl/login" target="_blank">Fisalis</a> en nuestra tienda, en este modal usted podrá tener la opción de asociar sus productos inventariables directamente de sus sucursales.</b>
+
+           <p class="parrafo-contenido"><b>"Si quieres conocer más sobre las apps integradas a jazmín o si te interesa nuestra app de control de inventario siempre puedes ver nuestra tienda o conocer más sobre nuestras aplicaciones."</b></p>
+           <ul>
+             <li><p class="parrafo-contenido"><a href="../tienda" target="_blank">&#9679; Tienda </a></p></li>
+           </ul>
+
+        <div class="contenedor-imagen">
+          <img class="imagen-detalle" src="../img/ventas/detalle.jpg">
+        </div>
+         <p class="parrafo-contenido">Luego de seleccionar el botón ok, el detalle aparecera en la página principal de ventas, donde se podrá guardar la venta y ¡¡Listo!!<br><br></p>
+        <div class="contenedor-imagen">
+          <img class="imagen-detalle-ventas" src="../img/ventas/detalle-ventas.jpg">
+        </div>
+         <p class="parrafo-contenido">Si quieres ver tu venta siempre puedes consultar el historial al final de la página.<br><br></p>
+
+         <h1 id="historial" class="subtitulo-obtener" style="color:#82afec;">Historial</h1>
+         <p class="parrafo-contenido">Al igual que en otros elementos, al final de ventas podrás notar un listado con todas las ventas, donde podras ver, actualizar y desactivar estas ventas. </p>
+         <div class="contenedor-imagen">
+           <img class="historial-venta" src="../img/ventas/historial-venta.jpg">
+         </div>
+
+         <h1 class="subtitulo-obtener" style="color:#02123c;">Uso de la App General</h1>
+         <p class="parrafo-contenido">Si quieres saber sobre la navegación de menu, o como funcionan los historiales de forma general siempre puedes consultar nuestro artículo sobre el uso de la app.</p>
+         <ul>
+           <li><p class="parrafo-contenido"><a href="../uso" target="_blank">&#9679; Uso de la aplicación</a></p></li>
+         </ul>
+     </section>
+
+     <section class="seccion-pregunta-utilidad">
+       <h1 class="titulo-utilidad">¿No Encuentras lo que buscas?</h1>
+       <h1 class="subtitulo-utilidad">Tranquilo,  ¡Envía una solicitud! Te responderemos los más pronto posible.</h1>
+       <a href="../solicitud" target="_blank"><h1 class="boton">Enviar una solicitud</h1></a>
+     </section>
+
+    </body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.modal');
+      var instances = M.Modal.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.tooltipped');
+      var instances = M.Tooltip.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems,{fullWidth: true,indicators: true})
+
+        for(let i = 0 ; i < instances.length;i++){
+            let instancia = instances[i];
+            let intervalos = setInterval(function () {
+              console.log("next");
+              instancia.next();
+            }, 5000);
+
+        }
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+          direction: 'left'
+        });
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems);
+      });
+   </script>
+  </html>
